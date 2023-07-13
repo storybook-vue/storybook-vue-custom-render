@@ -6,10 +6,10 @@
 </template>
 
 <script lang="ts" setup>
-import './button.css';
+import '../button.css';
 import { computed } from 'vue';
 
-import type { Sizes } from './types';
+import type { Sizes } from '../types';
 
 const props = withDefaults(defineProps<{
   /**
@@ -29,7 +29,6 @@ const props = withDefaults(defineProps<{
    */
   backgroundColor?: string,
 
-  union?: string | number | boolean
 
 }>(), { primary: false });
 
