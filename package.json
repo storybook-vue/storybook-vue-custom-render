@@ -16,11 +16,13 @@
     "vue": "^3.3.4"
   },
   "devDependencies": {
+
     "@storybook/addon-essentials": "7.1.0-rc.1",
     "@storybook/addon-interactions": "7.1.0-rc.1",
     "@storybook/addon-links": "7.1.0-rc.1",
     "@storybook/blocks": "7.1.0-rc.1",
     "@storybook/builder-vite": "7.1.0-rc.1",
+
     "@storybook/testing-library": "^0.2.0",
     "@storybook/types": "7.1.0-rc.1",
     "@storybook/vue3": "npm:@storybook-vue/vue3",
