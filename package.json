@@ -1,7 +1,7 @@
 {
   "name": "vue3-jsx",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -16,25 +16,23 @@
     "vue": "^3.3.4"
   },
   "devDependencies": {
-
     "@storybook/addon-essentials": "7.1.0-rc.1",
     "@storybook/addon-interactions": "7.1.0-rc.1",
     "@storybook/addon-links": "7.1.0-rc.1",
     "@storybook/blocks": "7.1.0-rc.1",
     "@storybook/builder-vite": "7.1.0-rc.1",
-
     "@storybook/testing-library": "^0.2.0",
     "@storybook/types": "7.1.0-rc.1",
-    "@storybook/vue3": "npm:@storybook-vue/vue3",
-    "@storybook/vue3-vite": "npm:@storybook-vue/vue3-vite",
+    "@storybook/vue3": "npm:@storybook-vue/vue3@latest",
+    "@storybook/vue3-vite": "7.1.0-rc.1",
     "@vitejs/plugin-vue": "^4.2.3",
     "@vue/babel-plugin-jsx": "^1.1.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "storybook": "7.1.0-rc.1",
     "typescript": "^5.1.6",
-    "vite": "^4.4.2",
-    "vue-tsc": "^1.8.4"
+    "vite": "^4.4.7",
+    "vue-tsc": "^1.8.8"
   },
   "pnpm": {
     "overrides": {
