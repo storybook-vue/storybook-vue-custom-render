@@ -40,8 +40,8 @@ devDependencies:
     specifier: npm:@storybook-vue/vue3@latest
     version: /@storybook-vue/vue3@7.1.0-rc.1(@vue/compiler-core@3.3.4)(vue@3.3.4)
   '@storybook/vue3-vite':
-    specifier: npm:@storybook-vue/vue3-vite@latest
-    version: /@storybook-vue/vue3-vite@7.1.0-rc.1.11(@vue/compiler-core@3.3.4)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(vite@4.4.7)(vue@3.3.4)
+    specifier: 7.1.0-rc.1
+    version: 7.1.0-rc.1(@vue/compiler-core@3.3.4)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(vite@4.4.7)(vue@3.3.4)
   '@vitejs/plugin-vue':
     specifier: ^4.2.3
     version: 4.2.3(vite@4.4.7)(vue@3.3.4)
@@ -1719,35 +1719,6 @@ packages:
   /@sinclair/typebox@0.27.8:
     resolution: {integrity: sha512-+Fj43pSMwJs4KRrH/938Uf+uAELIgVBmQzg/q1YG10djyfA3TnrU8N8XzqCh/okZdszqBQTZf96idMfE5lnwTA==}
 
-  /@storybook-vue/vue3-vite@7.1.0-rc.1.11(@vue/compiler-core@3.3.4)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(vite@4.4.7)(vue@3.3.4):
-    resolution: {integrity: sha512-6rKwo56z7Oyjk2F2viBawKe5t/Z8c3QHAA0RL2HH5iDkVMiPbGcff4+4enLeX4ljywO34fpvN1526bPu53TVoA==}
-    engines: {node: ^14.18 || >=16}
-    peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
-      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-      vite: ^3.0.0 || ^4.0.0
-    dependencies:
-      '@storybook/builder-vite': 7.1.0-rc.1(typescript@5.1.6)(vite@4.4.7)
-      '@storybook/core-server': 7.1.0-rc.1
-      '@storybook/vue3': 7.1.0-rc.1(@vue/compiler-core@3.3.4)(vue@3.3.4)
-      '@vitejs/plugin-vue': 4.2.3(vite@4.4.7)(vue@3.3.4)
-      magic-string: 0.30.2
-      react: 18.2.0
-      react-dom: 18.2.0(react@18.2.0)
-      vite: 4.4.7
-      vue-docgen-api: 4.74.0(vue@3.3.4)
-    transitivePeerDependencies:
-      - '@preact/preset-vite'
-      - '@vue/compiler-core'
-      - bufferutil
-      - encoding
-      - supports-color
-      - typescript
-      - utf-8-validate
-      - vite-plugin-glimmerx
-      - vue
-    dev: true
-
   /@storybook-vue/vue3@7.1.0-rc.1(@vue/compiler-core@3.3.4)(vue@3.3.4):
     resolution: {integrity: sha512-jZCQnY/s0FGKZQmO26GL76kbNjnpWNVng2bxbeiDcilNj6lM0SY7c+ly/UGjWx8c+zy25kRhRpnab9HHXpwrRw==}
     engines: {node: '>=16.0.0'}
@@ -2656,6 +2627,35 @@ packages:
       '@types/express': 4.17.17
       file-system-cache: 2.3.0
     dev: false
+
+  /@storybook/vue3-vite@7.1.0-rc.1(@vue/compiler-core@3.3.4)(react-dom@18.2.0)(react@18.2.0)(typescript@5.1.6)(vite@4.4.7)(vue@3.3.4):
+    resolution: {integrity: sha512-FjDdvkAz06aM4U6P3B77h+g3EnHNw3AjdQrfwVxG/nKRFjZVmEboWBuSZLinjlUqTC1Quugzz7oWw1DGgW8YQQ==}
+    engines: {node: ^14.18 || >=16}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+      vite: ^3.0.0 || ^4.0.0
+    dependencies:
+      '@storybook/builder-vite': 7.1.0-rc.1(typescript@5.1.6)(vite@4.4.7)
+      '@storybook/core-server': 7.1.0-rc.1
+      '@storybook/vue3': 7.1.0-rc.1(@vue/compiler-core@3.3.4)(vue@3.3.4)
+      '@vitejs/plugin-vue': 4.2.3(vite@4.4.7)(vue@3.3.4)
+      magic-string: 0.30.2
+      react: 18.2.0
+      react-dom: 18.2.0(react@18.2.0)
+      vite: 4.4.7
+      vue-docgen-api: 4.74.0(vue@3.3.4)
+    transitivePeerDependencies:
+      - '@preact/preset-vite'
+      - '@vue/compiler-core'
+      - bufferutil
+      - encoding
+      - supports-color
+      - typescript
+      - utf-8-validate
+      - vite-plugin-glimmerx
+      - vue
+    dev: true
 
   /@storybook/vue3@7.1.0-rc.1(@vue/compiler-core@3.3.4)(vue@3.3.4):
     resolution: {integrity: sha512-xReC7eAoXg0gMGEAP+Rz4ib4vJJZEo63DXsvrGpyea6vtx9eMPY2TphOj9D6VuNhfnJw1ZqiJeFgnqoiY2qjvg==}
